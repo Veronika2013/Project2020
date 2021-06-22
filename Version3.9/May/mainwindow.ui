@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>-80</y>
+      <width>701</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>ghb.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>450</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;This function return your removed passwors. You can see information about your backup file.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This function return your removed passwors. You can see information about your backup file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Backup</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="Support">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>186</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Support</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>978</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuddddd">
+    <property name="title">
+     <string>Passwords</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionNew_Password"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_all_Passwords"/>
+    <addaction name="actionDelete_some_Passwords"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menudwwwwww">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <widget class="QMenu" name="menuTheme">
+     <property name="title">
+      <string>Theme</string>
+     </property>
+     <addaction name="actionDark_Material"/>
+     <addaction name="actionLight"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="menuTheme"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionMaster_key"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionVersion_3_9"/>
+    <addaction name="actionjprogram_bk_com"/>
+   </widget>
+   <addaction name="menuddddd"/>
+   <addaction name="menudwwwwww"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionDelete_all_Passwords">
+   <property name="text">
+    <string>Remove all Passwords</string>
+   </property>
+  </action>
+  <action name="actionDelete_some_Passwords">
+   <property name="text">
+    <string>Remove some Passwords</string>
+   </property>
+  </action>
+  <action name="actionVersion_3_9">
+   <property name="text">
+    <string>Version 3.9</string>
+   </property>
+  </action>
+  <action name="actionjprogram_bk_com">
+   <property name="text">
+    <string>jprogram@bk.com</string>
+   </property>
+  </action>
+  <action name="actionDark_Material">
+   <property name="text">
+    <string>Strict Dark</string>
+   </property>
+  </action>
+  <action name="actionLight">
+   <property name="text">
+    <string>Usially Light</string>
+   </property>
+  </action>
+  <action name="actionMaster_key">
+   <property name="text">
+    <string>All settings</string>
+   </property>
+  </action>
+  <action name="actionNew_Password">
+   <property name="text">
+    <string>New Password</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
